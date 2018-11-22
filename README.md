@@ -1,7 +1,7 @@
 About r-readbrukerflexdata
 ==========================
 
-Home: https://cran.r-project.org/web/packages/readBrukerFlexData/index.html
+Home: http://strimmerlab.org/software/maldiquant/ https://github.com/sgibb/readBrukerFlexData/
 
 Package license: GPL (>= 3)
 
@@ -14,9 +14,8 @@ Summary: Reads data files acquired by Bruker Daltonics' matrix-assisted laser de
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/conda-forge/r-readbrukerflexdata-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/r-readbrukerflexdata-feedstock)
-[![OSX](https://img.shields.io/travis/conda-forge/r-readbrukerflexdata-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/r-readbrukerflexdata-feedstock)
-[![Windows](https://img.shields.io/appveyor/ci/conda-forge/r-readbrukerflexdata-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/r-readbrukerflexdata-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/r-readbrukerflexdata-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/r-readbrukerflexdata-feedstock)
 
 Current release info
 ====================
