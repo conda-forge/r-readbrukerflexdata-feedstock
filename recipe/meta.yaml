@@ -1,4 +1,4 @@
-{% set version = '1.8.5' %}
+{% set version = "1.9.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/readBrukerFlexData_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/readBrukerFlexData/readBrukerFlexData_{{ version }}.tar.gz
-  sha256: 35a1e2be4ce6bf57291eda5d3e220bb2d0e44404625a9b71d1a719c8bbabb1e2
+  sha256: e086033a3ec03b262a3e20c7ca5232b359e74e34b0bc5f682eadefe4f99a5a5e
 
 build:
-  merge_build_host: True  # [win]
-  number: 1004
+  merge_build_host: true  # [win]
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -37,11 +37,10 @@ test:
 about:
   home: http://strimmerlab.org/software/maldiquant/ https://github.com/sgibb/readBrukerFlexData/
   license: GPL-3.0-or-later
-  summary: Reads data files acquired by Bruker Daltonics' matrix-assisted laser desorption/ionization-time-of-flight
-    mass spectrometer of the *flex series.
+  summary: Reads data files acquired by Bruker Daltonics' matrix-assisted laser desorption/ionization-time-of-flight mass spectrometer of the *flex series.
   license_family: GPL3
   license_file:
-    - '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'
+    - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3
 
 extra:
   recipe-maintainers:
