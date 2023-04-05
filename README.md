@@ -1,11 +1,11 @@
-About r-readbrukerflexdata
-==========================
+About r-readbrukerflexdata-feedstock
+====================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-readbrukerflexdata-feedstock/blob/main/LICENSE.txt)
 
 Home: http://strimmerlab.org/software/maldiquant/ https://github.com/sgibb/readBrukerFlexData/
 
 Package license: GPL-3.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-readbrukerflexdata-feedstock/blob/main/LICENSE.txt)
 
 Summary: Reads data files acquired by Bruker Daltonics' matrix-assisted laser desorption/ionization-time-of-flight mass spectrometer of the *flex series.
 
