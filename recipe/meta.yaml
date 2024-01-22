@@ -1,4 +1,4 @@
-{% set version = "1.9.1" %}
+{% set version = "1.9.2" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/readBrukerFlexData_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/readBrukerFlexData/readBrukerFlexData_{{ version }}.tar.gz
-  sha256: 6752db50a9ac52ac58ba035c1f14064c601ce2bee9a8614e4d4327acbace182e
+  sha256: 11f89fb32d987d41d0bb97bc37ac239adf1daf8463995729f0591d9701ade7fe
 
 build:
   merge_build_host: true  # [win]
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
